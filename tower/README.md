@@ -113,6 +113,7 @@ The following is an incomplete list of such libraries:
   makes use of the Tower ecosystem: [`tower`], [`tower-http`], and
   [`tower-test`]. See [here][kube-example-minimal] and
   [here][kube-example-trace] for examples of using [`kube`] with Tower.
+* [`apalis`]: Type-safe, extensible, and high-performance background processing library based on Tower.
 
 [`hyper`]: https://crates.io/crates/hyper
 [`tonic`]: https://crates.io/crates/tonic
@@ -126,6 +127,7 @@ The following is an incomplete list of such libraries:
 [kube-example-minimal]: https://github.com/clux/kube-rs/blob/master/examples/custom_client.rs
 [kube-example-trace]: https://github.com/clux/kube-rs/blob/master/examples/custom_client_trace.rs
 [`tower-http`]: https://crates.io/crates/tower-http
+[`apalis`]: https://crates.io/crates/apalis
 
 If you're the maintainer of a crate that supports Tower, we'd love to add
 your crate to this list! Please [open a PR] adding a brief description of
